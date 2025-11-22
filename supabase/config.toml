@@ -1,0 +1,46 @@
+project_id = "giasxieqdyyqvsmtibfr"
+
+[functions.ai-recommendations]
+verify_jwt = true
+
+[functions.send-notification]
+verify_jwt = true
+
+[functions.send-auth-email]
+verify_jwt = false
+
+[functions.auth-signup]
+verify_jwt = false
+
+[functions.auth-signin]
+verify_jwt = false
+
+[functions.auth-verify-otp]
+verify_jwt = false
+
+[functions.auth-session]
+verify_jwt = false
+
+[functions.auth-signout]
+verify_jwt = false
+
+[functions.auth-forgot-password]
+verify_jwt = false
+
+[functions.auth-reset-password]
+verify_jwt = false
+
+[functions.twofactor-generate]
+verify_jwt = false
+
+[functions.twofactor-verify]
+verify_jwt = false
+
+[functions.twofactor-signin]
+verify_jwt = false
+
+[functions.twofactor-disable]
+verify_jwt = false
+
+[functions.send-security-alert]
+verify_jwt = false
